@@ -4,6 +4,19 @@
 
 This project implements a simple file transfer system in Python, utilizing socket programming. The system consists of two scripts - `sender.py` and `receiver.py`, enabling the transfer of files between a server and a client. The sender script acts as a server, allowing clients to connect, choose files, and initiate downloads. The receiver script connects to the server, displays available files, and facilitates user-driven file downloads.
 
+## Project Structure
+
+- **`from-folder/`**
+  - **`sender.py`**: Script for the server-side implementation.
+  - **`file_to_send.txt`** :File to send from sender folder to reciever folder
+  - **`file2.txt`**
+  - **`file3.txt`**
+**`to-folder/`**
+  - **`receiver.py`**: Script for the client-side implementation.
+  - **`file_to_send`**
+
+
+
 ## Key Features
 
 - **Socket-Based File Transfer:** Utilizes Python sockets for communication between server and client.

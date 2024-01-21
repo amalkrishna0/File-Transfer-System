@@ -6,14 +6,16 @@ This project implements a simple file transfer system in Python, utilizing socke
 
 ## Project Structure
 
+
 - **`from-folder/`**
   - **`sender.py`**: Script for the server-side implementation.
-  - **`file_to_send.txt`** :File to send from sender folder to reciever folder
+  - **`file_to_send.txt`**: Sample file to send from sender folder to receiver folder.
   - **`file2.txt`**
   - **`file3.txt`**
-**`to-folder/`**
+  
+- **`to-folder/`**
   - **`receiver.py`**: Script for the client-side implementation.
-  - **`file_to_send`**
+  - **`file_to_send.txt`**: File received from the sender.
 
 
 

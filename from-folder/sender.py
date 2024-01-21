@@ -26,7 +26,7 @@ def start_server():
 
     print("Server listening on port 9999...")
 
-    available_files = ["file_to_send.txt", "file2.txt", "file3.txt"]  # Add your list of available files
+    available_files = ["file_to_send.txt", "file2.txt", "file3.txt","a.png","surprise.mp4","videoplayback.mp4","ml.pptx","dataset4.csv"]  # Add your list of available files
 
     while True:
         client_socket, client_address = server_socket.accept()

@@ -22,7 +22,7 @@ def receive_file(server_address, server_port):
         file_details = client_socket.recv(1024).decode('utf-8')
         filename, file_size = file_details.split('|')
         file_size = int(file_size)
-
+        print("\n\n\n")
         print(f"File details:\nFilename: {filename}\nFile Size: {file_size} bytes")
 
         user_response = input("Do you want to receive this file? (yes/no): ").lower()

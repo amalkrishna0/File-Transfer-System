@@ -1,5 +1,7 @@
 import socket
 
+
+
 def receive_file(server_address, server_port):
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client_socket.connect((server_address, server_port))
@@ -44,7 +46,7 @@ def receive_file(server_address, server_port):
     client_socket.close()
 
 if __name__ == "__main__":
-    server_address = "192.168.1.5"  
+    server_address = "169.254.176.40"  
     server_port = 9999
 
     receive_file(server_address, server_port)
